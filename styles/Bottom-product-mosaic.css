@@ -34,6 +34,7 @@ div.Product-mosaic-bottom h3{
     font-weight: 600;
     line-height: 22.5px;
     font-size: 18.75px;
+    width: auto;
     flex-grow: 1;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -42,6 +43,7 @@ div.Product-mosaic-bottom h3{
 div.Product-Price-bottom {
     width: 100px;
     margin-left: 25px;
+    text-align: end;
 
 }
 

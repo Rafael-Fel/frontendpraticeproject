@@ -1,0 +1,113 @@
+footer{
+    box-sizing : border-box; 
+    display : flex ; 
+    background-color : rgb(26, 36, 86); 
+    padding-right : 45px; 
+    padding-left : 45px; 
+    padding-top : 45px; 
+    padding-bottom : 45px; 
+    color : rgb(239, 194, 179); 
+    font-size : 13.5px; 
+    margin-top : 0px; 
+    overflow : hidden; 
+    z-index : 1; 
+}
+
+.smallfooter{
+    box-sizing : border-box; 
+    padding-left : 20px; 
+    padding-right : 20px; 
+    position : relative; 
+    width : 200px; 
+    flex : 0 0 16.6667%; 
+    max-width : 16.6667%; 
+    order : 1; 
+    padding-bottom : 22.5px; 
+}
+
+
+.smallfooter p{
+    box-sizing : border-box; 
+    margin-bottom : 15px; 
+    margin-top : 0px; 
+    font-size : 10.8px; 
+    font-weight : 600; 
+    letter-spacing : 1px; 
+    min-width : 64.8px; 
+    text-transform : uppercase; 
+}
+
+.smallfooter address{
+    box-sizing : border-box; 
+    font-style : normal; 
+    line-height : 20.25px; 
+    margin-bottom : 15px; 
+}
+
+.smallfooter ul{
+    box-sizing : border-box; 
+    margin-bottom : 15px; 
+    margin-top : 0px; 
+    list-style : outside none none; 
+    padding-left : 0px; 
+}
+
+.smallfooter li{
+    box-sizing : border-box; 
+    margin-bottom : 5.4px; 
+}
+
+.largfooter{
+    box-sizing : border-box; 
+    padding-left : 20px; 
+    padding-right : 20px; 
+    position : relative; 
+    margin-top: -15px;
+    width : 400px; 
+    flex : 0 0 33.3333%; 
+    max-width : 472.5px; 
+    order : 12; 
+    padding-bottom : 22.5px; 
+}
+
+.largfooter div{
+    box-sizing : border-box; 
+    display : flex; 
+    flex-wrap : wrap; 
+    margin-left : -5px; 
+    margin-right : -5px; 
+}
+
+.largfooter input{
+    box-sizing : border-box; 
+    font-family : prompt, sans-serif; 
+    font-size : 13.5px; 
+    line-height : 20.25px; 
+    margin : 0px 7.5px 0px 0px; 
+    overflow : visible; 
+    background-clip : padding-box; 
+    background-color : rgb(26, 36, 86); 
+    border : 1px solid rgb(239, 194, 179); 
+    border-radius : 0px; 
+    color : rgb(239, 194, 179); 
+    display : block; 
+    font-weight : 300; 
+    height : 29.75px; 
+    padding : 3.75px 7.5px; 
+    transition : border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; 
+    width : 177.5px; 
+    border-color : rgb(239, 194, 179); 
+    box-shadow : rgba(26, 36, 86, 0.227) 0px 0px 0px 2.69567px; 
+    margin-right : 7.5px; 
+
+}
+.largfooter button{
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: prompt, sans-serif;
+    color: rgb(43, 43, 43);
+    border-radius: 15px;
+    background-color: #b87c56;
+    padding: 5px;
+    width: 90px;
+}
