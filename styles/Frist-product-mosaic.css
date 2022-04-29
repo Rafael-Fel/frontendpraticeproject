@@ -1,0 +1,108 @@
+div.Product-Top-1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+div.Product-mosaic {
+    display: flex;
+    background-position: top;
+    background-size: 572.5px 320.676px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: #1a2456;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    position: relative;
+    width: 572.5px;
+    height: 371.676px;
+    margin: 3px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, .5);
+    align-items: flex-end;
+    transition: .6s;
+}
+
+
+div.Product-mosaic h3 {
+    box-sizing: border-box;
+    margin-bottom: 7.5px;
+    margin-top: 0px;
+    font-family: prompt, sans-serif;
+    font-weight: 600;
+    line-height: 22.5px;
+    font-size: 18.75px;
+    flex-grow: 1;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+
+}
+
+div.Product-mosaic p {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 13.5px;
+
+
+}
+
+
+div.Product-Price {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+div.Product-Price p.discount {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 5px 0px 12px 20px; 
+    color: #ff8d6b;
+
+}
+
+div.Product-Price p.regular-price {
+    font-size: 11pt;
+    margin: 5px 5px 12px 6px; 
+    text-decoration: line-through;
+}
+
+.product1-img {
+    background-image: url("../public/images/Everyday-Bundle-Mocks-horizontal.jpg");
+}
+
+.product1-img:hover {
+    background-image: url("../public/images/Everyday-Bundle-Mocks-final.webp");
+}
+.product2-img {
+    background-image: url("../public/images/Packaging_Travele.jpg");
+}
+.product2-img:hover {
+    background-image: url("../public/images/Consoles_TravelerBracket1.webp");
+}
+.product3-img {
+    background-image: url("../public/images/Packaging_StudioClosedBracket1.jpg");
+}
+
+.product3-img:hover{
+    background-image: url("../public/images/Consoles_StudioBracket1.webp");
+}
+.product4-img {
+    background-image: url("../public/images/Packaging_MasterClosedBracket1.jpg");
+}
+
+.product4-img:hover{
+    background-image: url("../public/images/Consoles_MasterBracket1.webp");
+}
+
+
+
+
+
+

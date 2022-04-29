@@ -1,0 +1,95 @@
+div.Product-Bottom {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    color:#1a2456;
+}
+
+div.Product-mosaic-bottom {
+    display: flex;
+    background-position: top;
+    background-size: 381.656px 300.676px;
+    background-repeat: no-repeat;
+    box-sizing : border-box; 
+    padding-left : 22.5px; 
+    padding-right : 22.5px; 
+    position : relative; 
+    width : 360.656px;
+    height: 360px;
+    margin : 22.5px 10px 10px 10px; 
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, .5);
+    align-items: flex-end;
+    transition: .6s;
+
+}
+
+div.Product-mosaic-bottom h3{
+    box-sizing: border-box;
+    margin-bottom: 7.5px;
+    margin-top: 0px;
+    font-family: prompt, sans-serif;
+    font-weight: 600;
+    line-height: 22.5px;
+    font-size: 18.75px;
+    flex-grow: 1;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+div.Product-Price-bottom {
+    width: 100px;
+    margin-left: 25px;
+
+}
+
+
+
+.bottom-product1-img{
+    background-image: url("../public/images/Packaging_OrbiterBracket1.jpg");
+}
+.bottom-product1-img:hover{
+    background-image: url("../public/images/Consoles_OrbiterHero.jpg");
+}
+
+.bottom-product2-img{
+    background-image: url("../public/images/Packaging_DialHeroBracket1.jpg");
+}
+
+.bottom-product2-img:hover{
+    background-image: url("../public/images/Consoles_DialBracket1.webp");
+}
+.bottom-product3-img{
+    background-image: url("../public/images/Packaging_SliderHeroBracket1.jpg");
+}
+
+.bottom-product3-img:hover{
+    background-image: url("../public/images/Consoles_SliderBracket1.jpg");
+}
+.bottom-product4-img{
+    background-image: url("../public/images/Packaging_KeysBracket1.jpg");
+}
+
+.bottom-product4-img:hover{
+    background-image: url("../public/images/Consoles_KeysBracket1.jpg");
+}
+
+.bottom-product5-img{
+    background-image: url("../public/images/SW-box-render-mini-midi-final.jpg");
+}
+.bottom-product6-img{
+    background-image: url("../public/images/SW-box-render-mini-photo-final.jpg");
+}
+.bottom-product7-img{
+    background-image: url("../public/images/SW-box-render-mini-video-final.jpg");
+}
+
+.bottom-product8-img{
+    background-image: url("../public/images/Care-updated-traveler.jpg");
+}
+
+.bottom-product8-img:hover{
+    background-image: url("../public/images/MONO_CONSOLE_CARE_STU.jpg");
+}
