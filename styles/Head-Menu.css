@@ -11,6 +11,7 @@ div.menu-position-fixed {
     padding: 15px;
     margin: 0px;
     z-index: 10;
+    color: rgb(226, 143, 116);
 
 }
 
@@ -62,7 +63,6 @@ div.navbar ul {
 div.navbar a {
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0);
-    color: rgb(226, 143, 116);
     text-decoration: none solid rgb(226, 143, 116);
     display: block;
     padding: 7.5px;

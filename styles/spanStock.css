@@ -1,0 +1,26 @@
+span.inStock {
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-bottom: 330px;
+    margin-left:500px;
+    font-size: 13pt;
+    color: rgb(240, 240, 240);
+    background-color: #1a2355;
+    font-size: 20pt;
+    padding: 5px;
+    border-radius: 10px;
+}
+span.preOrder{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    margin-bottom: 330px;
+    margin-left:490px;
+    font-size: 13pt;
+    color: rgb(0, 0, 0);
+    background-color: #ff8d6b;
+    font-size: 20pt;
+    padding: 5px;
+    border-radius: 10px;
+}

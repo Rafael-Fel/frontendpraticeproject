@@ -4,6 +4,7 @@ import '../styles/Frist-product-mosaic.css'
 import '../styles/Bottom-product-mosaic.css'
 import '../styles/Footer.css'
 import '../styles/Head-Menu.css'
+import '../styles/spanStock.css'
 
 
 function MyApp({ Component, pageProps }) {
