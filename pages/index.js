@@ -2,6 +2,8 @@ import ProductsforSale from "../src/ProductsforSale"
 import ProductsBottom from "../src/ProductsBottom"
 import MenubarTop from "../src/MenuBarTop"
 import Footer from "../src/Footer"
+import {useState} from 'react';
+
 export default function Home() {
   return (
     <div>

@@ -60,7 +60,7 @@ div.navbar ul {
 
 }
 
-div.navbar a {
+div.navbar a.menu {
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none solid rgb(226, 143, 116);
@@ -70,5 +70,60 @@ div.navbar a {
     padding-right: 7.5px;
     font-weight: 400;
     margin-left: 12px;
+    transition: 0.6s;
 
 }
+div.navbar a.menu:hover{
+    color:rgb(179, 108, 85);
+    font-size:13pt;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+div.navbar button{
+    background-color:rgb(26, 36, 86);
+    border: none;
+    color:rgb(226, 143, 116) ;
+}
+.Hidemenu{
+    display: flex;
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 40px;
+}
+.Hidemenu ul{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(3, 2, 53, 0.8);
+    list-style: none;
+    border-radius: 10px;
+    text-align: left;
+    padding-right: 12px ;
+    
+}
+.Hidemenu li{
+    text-indent: 12px;
+    margin-right: 25px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    
+}
+.Submenuappear{
+    font-size: 12pt;
+    margin: 6px;
+
+}
+.Submenuappear:hover {
+    color:rgb(179, 108, 85);
+    font-size:13pt;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.Submenu{
+    font-size: 0pt;
+}
+
