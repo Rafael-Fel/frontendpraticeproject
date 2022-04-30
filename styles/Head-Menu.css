@@ -87,7 +87,8 @@ div.navbar button{
     border: none;
     color:rgb(226, 143, 116) ;
     font-size: 13pt;
-    margin-top: 6px;
+    margin-top: 7px;
+    margin-left: 12px;
     transition: .6s;
 }
 div.navbar button:hover{
