@@ -4,9 +4,9 @@ import { useState } from 'react';
 export default function MenubarTop() {
   const [style, setStyle] = useState("Submenu");
 
-  const handleClick = () => { 
+  const handleClick = () => {
     style == "Submenuappear" ? (
-    setStyle("Submenu")) : (setStyle("Submenuappear"))
+      setStyle("Submenu")) : (setStyle("Submenuappear"))
   }
 
   return (
@@ -16,12 +16,7 @@ export default function MenubarTop() {
         <div className="navbar">
           <ul>
             <a className="menu" href=""><li>HOW IT WORKS</li></a>
-            
-              <li>
-              <a className="menu" href=""> WORKFLOWS</a> 
-
-              </li>
-              <li><button onClick={handleClick}> &dArr;</button></li>
+            <li><button onClick={handleClick}> WORKFLOWS &dArr;</button></li>
             <a className="menu" href=""><li>DOWNLOAD</li></a>
             <a className="menu" href=""><li>BLOG</li></a>
             <a className="menu" href=""><li>SUPPORT</li></a>
