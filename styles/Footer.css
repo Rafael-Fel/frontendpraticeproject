@@ -2,7 +2,7 @@ footer{
     box-sizing : border-box; 
     display : flex ; 
     background-color : rgb(26, 36, 86); 
-    background-size: cover;
+    background-attachment: fixed;
     padding-right : 45px; 
     padding-left : 45px; 
     padding-top : 45px; 
