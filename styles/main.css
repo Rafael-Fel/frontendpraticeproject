@@ -128,8 +128,8 @@ a.HeadScroll p{
     position: absolute;
     text-align: center;
     font-size: 80pt;
-    left: 570px;
-    top:330px;
+    left: 940px;
+    top:360px;
     color:#09144b;
     transition: .6s;
 }
