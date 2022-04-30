@@ -14,9 +14,11 @@ export default function Home() {
             <div className="headtext">
               <h1>A CONSOLE FOR EVERY WORKFLOW</h1>
               <p>Discover the perfect console for yours.</p>
+              
             </div>
           </div>
         </div>
+        <a href="#ProductsForSale" className="HeadScroll"> <p> &#9759;</p> </a>
       </div>
       <ProductsforSale />
       <div className='shopbanner'>
