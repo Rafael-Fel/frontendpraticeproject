@@ -127,16 +127,17 @@ div.shopbanner {
 a.HeadScroll p{
     position: absolute;
     text-align: center;
-    font-size: 80pt;
+    font-size: 70pt;
     left: 940px;
-    top:360px;
+    top:390px;
     color:#09144b;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, .7);
     transition: .6s;
 }
 a.HeadScroll:hover p{
-    font-size: 100pt;
+    font-size: 90pt;
     font-weight:300;
     color: #040e46;
-    text-shadow: 3px 6px 6px rgba(0, 0, 0, .8);
+    text-shadow: 6px 15px 9px rgba(0, 0, 0, .9);
 }
 
