@@ -125,6 +125,7 @@ div.navbar button:hover{
 
 }
 .Submenuappear:hover {
+    background-color: rgba(3, 2, 53, 0.3);
     color:rgb(179, 108, 85);
     font-size:13pt;
     font-weight: bold;
