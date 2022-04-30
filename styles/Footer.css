@@ -1,6 +1,7 @@
 footer{
     box-sizing : border-box; 
     display : flex ; 
+    width: 1366px;
     background-color : rgb(26, 36, 86); 
     background-attachment: fixed;
     padding-right : 45px; 
