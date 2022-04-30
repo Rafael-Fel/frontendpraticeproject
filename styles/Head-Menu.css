@@ -86,13 +86,13 @@ div.navbar button{
     background-color:rgba(0, 0, 0, 0.0);
     border: none;
     color:rgb(226, 143, 116) ;
-    font-size: 13pt;
-    margin-top: 7px;
+    font-size: 12pt;
+    margin-top: 9px;
     margin-left: 12px;
     transition: .6s;
 }
 div.navbar button:hover{
-    font-size: 16pt;
+    font-size: 13pt;
     font-weight: bold;
     color:rgb(179, 108, 85);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
