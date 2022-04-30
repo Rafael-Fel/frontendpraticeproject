@@ -106,7 +106,7 @@ div.navbar button:hover{
 .Hidemenu ul{
     display: flex;
     flex-direction: column;
-    background-color: rgba(3, 2, 53, 0.8);
+    background-color: rgba(3, 2, 53, 0.9);
     list-style: none;
     border-radius: 10px;
     text-align: left;
@@ -126,7 +126,7 @@ div.navbar button:hover{
 
 }
 .Submenuappear:hover {
-    background-color: rgba(3, 2, 53, 0.3);
+    background-color: rgba(3, 2, 53, 0.6);
     color:rgb(179, 108, 85);
     font-size:13pt;
     font-weight: bold;

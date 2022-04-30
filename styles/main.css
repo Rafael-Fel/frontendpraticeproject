@@ -1,6 +1,6 @@
 div.head {
     background-image: url("../public/images/shop-cta-xl.jpg");
-    background-size: 100vw 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 1366px;
     height: 675px;
@@ -19,8 +19,6 @@ div.containerhead {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-
-
 }
 
 div.containerheadtext {
@@ -28,6 +26,7 @@ div.containerheadtext {
     width: 1100px;
     margin-top: 120px;
     margin-bottom: 45px;
+    margin-left: 40px;
 }
 
 div.headtext {
@@ -36,7 +35,6 @@ div.headtext {
     max-width: none;
     padding: 0px 0px 0px 22.5px;
     position: relative;
-
 }
 
 div.headtext h1 {
@@ -50,7 +48,6 @@ div.headtext h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #1a2456;
-
 }
 
 div.headtext p {
@@ -60,8 +57,6 @@ div.headtext p {
     font-size: 18.75px;
     font-weight: 300;
     color: #1a2456;
-
-
 }
 
 section.containerbody {
@@ -80,7 +75,7 @@ section.containerbody {
 div.shopbanner {
     display: inline-flex;
     background-image: url("../public/images/shop-banner-module.webp");
-    background-size: 100vw 100vh;
+    background-size:cover;
     background-repeat: no-repeat;
     width: 1366px;
     height: 675px;
@@ -127,6 +122,21 @@ div.shopbanner {
     margin-top : 0px; 
     font-size : 18.75px; 
     font-weight : 300; 
+}
 
+a.HeadScroll p{
+    position: absolute;
+    text-align: center;
+    font-size: 80pt;
+    left: 570px;
+    top:330px;
+    color:#09144b;
+    transition: .6s;
+}
+a.HeadScroll:hover p{
+    font-size: 100pt;
+    font-weight:300;
+    color: #040e46;
+    text-shadow: 3px 6px 6px rgba(0, 0, 0, .8);
 }
 
