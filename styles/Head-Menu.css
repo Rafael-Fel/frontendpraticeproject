@@ -71,7 +71,6 @@ div.navbar a.menu {
     font-weight: 400;
     margin-left: 12px;
     transition: 0.3s;
-
 }
 div.navbar a.menu:hover{
     color:rgb(179, 108, 85);
@@ -82,13 +81,13 @@ div.navbar a.menu:hover{
 
 div.navbar button{
     display: flex;
-    z-index: 20;
+    margin-left: 12px;
+    margin-top: 3px;
+    padding: 7.5px;
     background-color:rgba(0, 0, 0, 0.0);
     border: none;
     color:rgb(226, 143, 116) ;
     font-size: 12pt;
-    margin-top: 9px;
-    margin-left: 12px;
     transition: .6s;
 }
 div.navbar button:hover{

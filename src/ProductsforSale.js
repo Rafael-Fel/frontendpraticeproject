@@ -3,7 +3,7 @@ import useState from "react"
 
 export default function ProductsforSale() {
     return (
-        <section className="containerbody">
+        <section className="containerbody" id="ProductsForSale">
             <div className="Product-Top-1">
                 <div className="Product-mosaic product1-img">
                     <span className="preOrder">
